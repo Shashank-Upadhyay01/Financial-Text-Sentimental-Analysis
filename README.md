@@ -7,6 +7,7 @@ Leverages the pre-trained FinBERT model from ProsusAI for sentiment analysis.
 Efficiently retrieves relevant news articles by parsing Yahoo Finance RSS feeds for a specific stock ticker symbol.
 Focuses on keywords within the summaries to filter articles related to the chosen stock.
 Calculates an overall sentiment score (positive, negative, or neutral) based on individual article sentiment.
+
 Method 2: Employing the News API
 
 Employs the FinBERT model for accurate sentiment analysis in the financial domain.
@@ -14,6 +15,7 @@ Retrieves news articles related to a specified keyword using the News API.
 Filters articles based on the keyword presence in the title or description (case-insensitive).
 Analyzes the sentiment of the article content using the FinBERT model.
 Calculates an overall sentiment score based on individual article sentiment.
+
 Key Features:
 
 FinBERT Integration: Utilizes the FinBERT model for accurate financial sentiment analysis.
